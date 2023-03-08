@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="w-full h-auto primary text-white px-4 pt-4 flex items-center justify-between"
+      class="w-full h-auto primary px-4 pt-4 flex items-center justify-between"
     >
       <img
         class="w-60 max-w-xs object-contain self-start"
@@ -12,33 +12,33 @@
         <div>
           <p class="font-bold text-2xl">HI, I'M PASCAL!</p>
           <p class="my-5 font-medium">
-            I'm an Austrian web developer, living in Lisbon. And I love to bring
+            I'm an Austrian web developer based in Lisbon. And I love to bring
             your web ideas to life!
           </p>
           <div class="flex justify-around">
             <a
-              class="flex items-center cursor-pointer accent"
+              class="flex items-center accent"
               href="mailto:rengelshausen.business@gmail.com"
             >
-              <Icon class="text-2xl" name="mdi:email" />
+              <Icon size="24px" name="mdi:email" />
               <p class="ml-2">E-mail me</p>
             </a>
             <a
-              class="flex items-center cursor-pointer accent"
+              class="flex items-center accent"
               href="https://www.linkedin.com/in/pascal-rengelshausen-2630b3233/"
               target="_blank"
               rel="noreferrer noopener"
             >
-              <Icon class="text-2xl" name="mdi:linkedin" />
+              <Icon size="24px" name="mdi:linkedin" />
               <p class="ml-2">My LinkedIn</p>
             </a>
             <a
-              class="flex items-center cursor-pointer accent"
+              class="flex items-center accent"
               href="https://github.com/Prengelshausen"
               target="_blank"
               rel="noreferrer noopener"
             >
-              <Icon class="text-2xl" name="mdi:github-box" />
+              <Icon size="24px" name="mdi:github-box" />
               <p class="ml-2">My Github</p>
             </a>
           </div>
