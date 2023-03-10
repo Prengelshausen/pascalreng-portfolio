@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="w-full h-auto primary px-4 pt-4 flex items-center justify-between"
+      class="w-full primary px-4 pt-4 flex items-center justify-between"
     >
       <img
         class="w-60 max-w-xs object-contain self-start"

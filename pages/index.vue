@@ -2,6 +2,7 @@
   <div>
     <Introduction></Introduction>
     <Experience></Experience>
+    <Projects></Projects>
   </div>
 </template>
 

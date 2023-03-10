@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="sticky top-0 flex justify-between py-4 px-14 backdrop-blur">
+    <header class="primary sticky top-0 flex justify-between py-4 px-14">
       <NuxtLink to="/">Pascal Rengelshausen</NuxtLink>
       <nav>
         <ul class="flex gap-4">
@@ -16,11 +16,11 @@
     </div>
     <footer class="primary flex justify-between items-center py-10 px-14">
       <div>
+        <p class="font-light text-sm">© 2023 Made by</p>
         <p class="font-medium">Pascal Rengelshausen</p>
         <p class="font-light text-sm">Austrian web developer based in Lisbon, Portugal.</p>
       </div>
-      <div class="flex flex-col items-center">
-        <p class="font-light">Let's get in touch</p>
+      <div class="flex items-center">
         <div>
           <a href="mailto:rengelshausen.business@gmail.com">
             <Icon class="accent" size="30px" name="mdi:email" />

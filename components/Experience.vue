@@ -16,14 +16,13 @@
         <div
           class="flex flex-col items-center text-black hover:text-sky-400"
           v-for="skill of skills"
-          :key="skill.name"
         >
           <div
             :class="`border ${skill.special}-shadow rounded-xl py-5 px-5 my-4`"
           >
             <Icon size="54px" :name="skill.icon" />
           </div>
-          <p class="font-medium">{{ skill.name }}</p>
+          <p class="font-medium text-lg">{{ skill.name }}</p>
         </div>
       </div>
     </div>
