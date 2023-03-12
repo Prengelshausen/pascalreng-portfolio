@@ -1,8 +1,8 @@
 <template>
-  <div class="flex items-center justify-around">
+  <div class="flex flex-col lg:flex-row items-center justify-around">
     <div
       v-for="project of projects"
-      class="background border rounded-md my-4 max-w-sm cursor-pointer custom-shadow"
+      class="border rounded-md my-4 lg:mx-2 mx-0 max-w-xs md:max-w-sm cursor-pointer custom-shadow"
     >
       <NuxtLink to="/projects">
         <img :src="project.img" alt="" />
@@ -108,10 +108,5 @@ let projects = [
 <style scoped>
 .custom-shadow:hover {
   box-shadow: 0px 4px 25px rgba(9, 9, 12, 0.1);
-}
-.background {
-  background-color: rgba(255, 255, 255, 0.1);
-  overflow: hidden;
-  backdrop-filter: blur(16px);
 }
 </style>

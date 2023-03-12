@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-white text-black w-full py-12 px-24">
+    <div class="bg-white text-black w-full px-6 py-4 md:py-12 md:px-24">
       <p class="text-center text-2xl mb-8 font-bold">My Projects</p>
       <div>
         <ProjectCard></ProjectCard>

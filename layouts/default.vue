@@ -1,9 +1,9 @@
 <template>
   <div>
-    <header class="primary sticky top-0 flex justify-between py-4 px-14">
+    <header class="primary sticky top-0 flex justify-between py-4 pl-4 pr-2 md:px-14">
       <NuxtLink to="/">Pascal Rengelshausen</NuxtLink>
       <nav>
-        <ul class="flex gap-4">
+        <ul class="flex gap-2">
           <li><NuxtLink to="/projects">Projects</NuxtLink></li>
           <li class="accent">
             <a href="/Rengelshausen_CV.pdf" download="">Download CV</a>
@@ -14,13 +14,13 @@
     <div class="mx-auto">
       <slot />
     </div>
-    <footer class="primary flex justify-between items-center py-10 px-14">
+    <footer class="primary flex flex-col md:flex-row justify-between items-left md:items-center py-10 md:px-14 pl-4 pr-2">
       <div>
         <p class="font-light text-sm">© 2023 Made by</p>
         <p class="font-medium">Pascal Rengelshausen</p>
         <p class="font-light text-sm">Austrian web developer based in Lisbon, Portugal.</p>
       </div>
-      <div class="flex items-center">
+      <div class="flex items-center mt-2 md:mt-0">
         <div>
           <a href="mailto:rengelshausen.business@gmail.com">
             <Icon class="accent" size="30px" name="mdi:email" />

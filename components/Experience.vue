@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex flex-col bg-white text-black w-full p-12">
+    <div class="flex flex-col bg-white text-black w-full p-6 md:p-12">
       <div class="text-center">
         <p class="text-2xl mb-4 font-bold">My Skills</p>
         <p class="font-medium">
@@ -12,7 +12,7 @@
           own private projects.
         </p>
       </div>
-      <div class="grid grid-cols-4 mt-12 place-items-center">
+      <div class="grid grid-cols-2 md:grid-cols-4 mt-12 place-items-center">
         <div
           class="flex flex-col items-center text-black hover:text-sky-400"
           v-for="skill of skills"
