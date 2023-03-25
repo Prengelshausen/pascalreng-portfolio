@@ -1,12 +1,14 @@
 <template>
   <div>
-    <header class="primary sticky top-0 flex justify-between py-4 pl-4 pr-2 md:px-14">
+    <header class="primary sticky top-0 flex justify-between z-10 py-4 pl-4 pr-2 md:px-14">
       <NuxtLink to="/">Pascal Rengelshausen</NuxtLink>
       <nav>
         <ul class="flex gap-2">
-          <li><NuxtLink to="/projects">Projects</NuxtLink></li>
           <li class="accent">
-            <a href="/Rengelshausen_CV.pdf" download="">Download CV</a>
+            <a class="flex items-center" href="/Rengelshausen_CV.pdf" download="">
+              <Icon class="accent mx-1" name="mdi:download"/>
+              <p>Download CV</p>
+            </a>
           </li>
         </ul>
       </nav>

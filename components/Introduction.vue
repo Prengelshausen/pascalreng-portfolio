@@ -5,7 +5,7 @@
     >
       <img
         class="w-48 sm:w-60 max-w-xs object-contain mt-8 self-center sm:self-left order-2 sm:order-1"
-        src="../assets/images/_DSC3004.png"
+        src="/_DSC3004.png"
         alt="Me"
       />
       <div class="text-center flex items-center order-1 sm:order-2">
