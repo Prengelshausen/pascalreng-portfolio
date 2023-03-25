@@ -50,6 +50,7 @@ let skills = [
   },
   { name: "MongoDB", icon: "vscode-icons:file-type-mongo"},
   { name: "AdobeXD", icon: "logos:adobe-xd"},
+  { name: "Figma", icon: "logos:figma"},
 ];
 </script>
 
