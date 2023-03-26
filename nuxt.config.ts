@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    modules: ['@nuxtjs/tailwindcss', 'nuxt-icon','@nuxt/image-edge',],
+    modules: ['@nuxtjs/tailwindcss', 'nuxt-icon'],
     app: {
         head: {
             title: 'Pascal Rengelshausen',

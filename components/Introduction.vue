@@ -3,12 +3,8 @@
     <div
       class="w-full primary px-4 pt-4 flex flex-col sm:flex-row items-center justify-between"
     >
-      <nuxt-img
-        class="max-w-xs mt-8 self-center sm:self-left order-2 sm:order-1"
-        format="webp"
-        quality="100"
-        sizes="sm:192px md:240px lg:240px"
-        fit="contain"
+      <img
+        class="w-48 sm:w-60 max-w-xs object-contain mt-8 self-center sm:self-left order-2 sm:order-1"
         src="/_DSC3004.png"
         alt="Me"
       />

@@ -4,8 +4,8 @@
       v-for="project of projects"
       class="flex flex-col border rounded-md my-4 lg:mx-2 lg:w-1/3 mx-0 max-w-xs md:max-w-sm overflow-hidden custom-shadow"
     >
-        <nuxt-img v-if="project.completed" :src="project.img" format="webp" quality="80" loading="lazy" class="mx-auto rounded-t-md" alt="Image of Project" />
-        <nuxt-img v-else :src="project.img" format="webp" quality="50" loading="lazy" class="mx-auto rounded-t-md blur-sm" alt="Image of Project" />
+        <img v-if="project.completed" :src="project.img" class="mx-auto rounded-t-md" alt="Image of Project" />
+        <img v-else :src="project.img" class="mx-auto rounded-t-md blur-sm" alt="Image of Project" />
         <div class="py-5 px-5">
           <div class="flex items-center justify-between">
             <p class="font-semibold text-lg truncate">{{ project.title }}</p>
