@@ -4,8 +4,8 @@
       v-for="project of projects"
       class="flex flex-col border rounded-md my-4 lg:mx-2 lg:w-1/3 mx-0 max-w-xs md:max-w-sm overflow-hidden custom-shadow"
     >
-        <img v-if="project.completed" :src="project.img" class="mx-auto rounded-t-md" alt="Image of Project" />
-        <img v-else :src="project.img" class="mx-auto rounded-t-md blur-sm" alt="Image of Project" />
+        <nuxt-img v-if="project.completed" :src="project.img" format="webp" quality="80" loading="lazy" class="mx-auto rounded-t-md" alt="Image of Project" />
+        <nuxt-img v-else :src="project.img" format="webp" quality="50" loading="lazy" class="mx-auto rounded-t-md blur-sm" alt="Image of Project" />
         <div class="py-5 px-5">
           <div class="flex items-center justify-between">
             <p class="font-semibold text-lg truncate">{{ project.title }}</p>
@@ -14,11 +14,11 @@
               v-if="project.completed"
             >
               <Icon class="text-green-500" name="mdi:check"/>
-              <p class="text-xs text-green-500 font-extralight">Completed</p>
+              <p class="text-xs text-green-500 font-light">Completed</p>
             </div>
             <div v-else class="flex items-center min-w-fit border border-orange-400 rounded-xl p-1 px-2">
               <Icon class="text-orange-400" name="mdi:cogs"/>
-              <p class="text-xs text-orange-400 font-extralight ml-1">In Progress</p>
+              <p class="text-xs text-orange-400 font-light ml-1">In Progress</p>
             </div>
           </div>
           <div class="flex flex-wrap mt-6">
@@ -29,10 +29,10 @@
           </div>
           <p class="mt-6">{{ project.description }}</p>
         </div>
-        <a class="flex items-center justify-center mt-auto mb-6 accent" :href="project.link" target="_blank" rel="noreferrer noopener">
+        <NuxtLink class="flex items-center justify-center mt-auto mb-6 accent" :to="project.link" target="_blank" rel="noopener noreferrer">
           <Icon class="mr-1" size="24px" name="mdi:github-box"/>
           <p>View this Project on Github</p>
-        </a>
+        </NuxtLink>
     </div>
   </div>
 </template>

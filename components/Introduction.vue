@@ -3,8 +3,12 @@
     <div
       class="w-full primary px-4 pt-4 flex flex-col sm:flex-row items-center justify-between"
     >
-      <img
-        class="w-48 sm:w-60 max-w-xs object-contain mt-8 self-center sm:self-left order-2 sm:order-1"
+      <nuxt-img
+        class="max-w-xs mt-8 self-center sm:self-left order-2 sm:order-1"
+        format="webp"
+        quality="100"
+        sizes="sm:192px md:240px lg:240px"
+        fit="contain"
         src="/_DSC3004.png"
         alt="Me"
       />
@@ -16,31 +20,31 @@
             your web ideas to life!
           </p>
           <div class="flex justify-around">
-            <a
+            <NuxtLink
               class="flex items-center accent"
-              href="mailto:rengelshausen.business@gmail.com"
+              to="mailto:rengelshausen.business@gmail.com"
             >
               <Icon size="24px" name="mdi:email" />
               <p class="hidden lg:inline-block ml-2">E-mail me</p>
-            </a>
-            <a
+            </NuxtLink>
+            <NuxtLink
               class="flex items-center accent"
-              href="https://www.linkedin.com/in/pascal-rengelshausen-2630b3233/"
+              to="https://www.linkedin.com/in/pascal-rengelshausen-2630b3233/"
               target="_blank"
-              rel="noreferrer noopener"
+              rel="noopener noreferrer"
             >
               <Icon size="24px" name="mdi:linkedin" />
               <p class="hidden lg:inline-block ml-2">My LinkedIn</p>
-            </a>
-            <a
+            </NuxtLink>
+            <NuxtLink
               class="flex items-center accent"
-              href="https://github.com/Prengelshausen"
+              to="https://github.com/Prengelshausen"
               target="_blank"
-              rel="noreferrer noopener"
+              rel="noopener noreferrer"
             >
               <Icon size="24px" name="mdi:github-box" />
               <p class="hidden lg:inline-block ml-2">My Github</p>
-            </a>
+            </NuxtLink>
           </div>
         </div>
       </div>

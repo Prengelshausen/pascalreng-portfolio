@@ -24,23 +24,23 @@
       </div>
       <div class="flex items-center mt-2 md:mt-0">
         <div>
-          <a href="mailto:rengelshausen.business@gmail.com">
+          <NuxtLink to="mailto:rengelshausen.business@gmail.com">
             <Icon class="accent" size="30px" name="mdi:email" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/pascal-rengelshausen-2630b3233/"
+          </NuxtLink>
+          <NuxtLink
+            to="https://www.linkedin.com/in/pascal-rengelshausen-2630b3233/"
             target="_blank"
-            rel="noreferrer noopener"
+            rel="noopener noreferrer"
           >
             <Icon class="accent mx-1" size="30px" name="mdi:linkedin" />
-          </a>
-          <a
-            href="https://github.com/Prengelshausen"
+          </NuxtLink>
+          <NuxtLink
+            to="https://github.com/Prengelshausen"
             target="_blank"
-            rel="noreferrer noopener"
+            rel="noopener noreferrer"
           >
             <Icon class="accent" size="30px" name="mdi:github-box" />
-          </a>
+          </NuxtLink>
         </div>
       </div>
     </footer>
